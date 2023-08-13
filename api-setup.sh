@@ -8,3 +8,9 @@ read API_KEY
 sed -i "s/<API key>/$API_KEY/g" chattytutor.py
 
 echo "API key set successfully!"
+
+# Install Python packages from requirements.txt
+echo "Installing required Python packages from requirements.txt..."
+pip install -r requirements.txt
+
+echo "Setup completed successfully!"
